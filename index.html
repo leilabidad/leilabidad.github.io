@@ -1,123 +1,655 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Leila Bidad | AI Researcher</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <meta
+        name="description"
+        content="Leila Bidad - AI Researcher and Software Engineer"
+    >
 
-        body {
-            min-height: 100vh;
-            background:
-                radial-gradient(circle at 20% 20%, #172554 0%, transparent 35%),
-                radial-gradient(circle at 80% 80%, #312e81 0%, transparent 35%),
-                #020617;
-            color: white;
-            font-family: Arial, sans-serif;
-            overflow-x: hidden;
-        }
+    <title>
+        Leila Bidad | AI Researcher
+    </title>
 
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 30px;
-        }
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 
-        .content {
-            max-width: 900px;
-        }
-
-        .name {
-            font-size: clamp(3rem, 9vw, 7rem);
-            font-weight: 800;
-            letter-spacing: -4px;
-            margin-bottom: 20px;
-        }
-
-        .title {
-            font-size: clamp(1.2rem, 3vw, 2rem);
-            color: #a5b4fc;
-            margin-bottom: 25px;
-        }
-
-        .description {
-            max-width: 700px;
-            margin: auto;
-            line-height: 1.8;
-            color: #cbd5e1;
-            font-size: 1.05rem;
-        }
-
-        .buttons {
-            margin-top: 40px;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .button {
-            text-decoration: none;
-            color: white;
-            border: 1px solid #6366f1;
-            padding: 13px 25px;
-            border-radius: 30px;
-            transition: 0.3s;
-        }
-
-        .button:hover {
-            background: #6366f1;
-            transform: translateY(-3px);
-        }
-    </style>
 </head>
+
 
 <body>
 
+    <canvas id="network"></canvas>
+
+    <div class="background-glow"></div>
+    <div class="background-glow two"></div>
+
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <div class="logo">
+            LB<span>.</span>
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="#research">
+                    Research
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="#experience">
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- Hero -->
+
     <section class="hero">
-        <div class="content">
 
-            <div class="name">
-                Leila Bidad
-            </div>
+        <div class="hero-content reveal">
 
-            <div class="title">
+            <div class="eyebrow">
                 AI Researcher · Software Engineer
             </div>
 
-            <p class="description">
-                Researching Agentic AI, Medical Imaging,
-                Multimodal Learning, Computer Vision and
-                Large Language Models.
+            <h1>
+                Leila
+                <span>Bidad</span>
+            </h1>
+
+            <h2>
+                Building intelligent systems
+                at the intersection of AI,
+                medicine and software.
+            </h2>
+
+            <p class="hero-description">
+
+                I work on Agentic AI, medical imaging,
+                multimodal learning, computer vision,
+                large language models and intelligent
+                software systems.
+
             </p>
 
+
             <div class="buttons">
-                <a class="button" href="#research">
-                    Research
+
+                <a
+                    class="button primary"
+                    href="#research"
+                >
+                    Explore My Work
                 </a>
 
-                <a class="button" href="#projects">
-                    Projects
-                </a>
-
-                <a class="button"
-                   href="https://github.com/leilabidad">
+                <a
+                    class="button"
+                    href="https://github.com/leilabidad"
+                    target="_blank"
+                >
                     GitHub
                 </a>
+
             </div>
 
         </div>
+
     </section>
 
+
+    <!-- About -->
+
+    <section id="about">
+
+        <div class="reveal">
+
+            <div class="eyebrow">
+                01 · About
+            </div>
+
+            <h2 class="section-title">
+                Research meets engineering.
+            </h2>
+
+            <p class="section-subtitle">
+
+                I combine research-oriented AI development
+                with practical software engineering to build
+                systems that are not only intelligent,
+                but useful and deployable.
+
+            </p>
+
+        </div>
+
+
+        <div class="glass reveal">
+
+            <p class="about-text">
+
+                My work focuses on the development of
+                intelligent systems using modern machine
+                learning and large language models.
+                My research interests include agentic AI,
+                medical image analysis, multimodal learning,
+                clinical reasoning and computer vision.
+
+                <br><br>
+
+                Alongside research, I design and develop
+                production-oriented software systems,
+                APIs, backend services and AI-powered
+                applications.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Research -->
+
+    <section id="research">
+
+        <div class="reveal">
+
+            <div class="eyebrow">
+                02 · Research
+            </div>
+
+            <h2 class="section-title">
+                Areas of research
+            </h2>
+
+            <p class="section-subtitle">
+                Exploring how intelligent models can reason,
+                perceive and operate in complex environments.
+            </p>
+
+        </div>
+
+
+        <div class="grid">
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    01
+                </div>
+
+                <h3>
+                    Agentic AI
+                </h3>
+
+                <p>
+                    Multi-agent reasoning systems,
+                    autonomous workflows and
+                    LLM-based decision processes.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">LLMs</span>
+                    <span class="tag">Agents</span>
+                    <span class="tag">Reasoning</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    02
+                </div>
+
+                <h3>
+                    Medical AI
+                </h3>
+
+                <p>
+                    Machine learning and multimodal
+                    approaches for clinical prediction
+                    and medical imaging.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">Medical Imaging</span>
+                    <span class="tag">CXR</span>
+                    <span class="tag">Clinical AI</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    03
+                </div>
+
+                <h3>
+                    Computer Vision
+                </h3>
+
+                <p>
+                    Deep learning models for image
+                    representation, classification
+                    and multimodal analysis.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">Vision</span>
+                    <span class="tag">Swin</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    04
+                </div>
+
+                <h3>
+                    Multimodal Learning
+                </h3>
+
+                <p>
+                    Combining visual, clinical and
+                    structured information to build
+                    richer predictive systems.
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">Multimodal AI</span>
+                    <span class="tag">Fusion</span>
+                    <span class="tag">Embeddings</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <div class="reveal">
+
+            <div class="eyebrow">
+                03 · Selected Projects
+            </div>
+
+            <h2 class="section-title">
+                Things I've built.
+            </h2>
+
+            <p class="section-subtitle">
+                Selected research and engineering projects.
+            </p>
+
+        </div>
+
+
+        <div class="grid">
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    RESEARCH
+                </div>
+
+                <h3>
+                    Agentic AI for ICU Mortality Prediction
+                </h3>
+
+                <p>
+
+                    A multimodal medical AI framework combining
+                    chest X-ray representations, clinical
+                    information and LLM-based reasoning for
+                    ICU mortality prediction.
+
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">MIMIC-CXR</span>
+                    <span class="tag">LLM</span>
+                    <span class="tag">Swin</span>
+                    <span class="tag">DCS</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    SOFTWARE
+                </div>
+
+                <h3>
+                    ZKTeco Biometric System
+                </h3>
+
+                <p>
+
+                    A distributed attendance and biometric
+                    synchronization system using Python,
+                    FastAPI and ZKTeco devices.
+
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">Python</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">SQLite</span>
+                    <span class="tag">Biometrics</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    AI
+                </div>
+
+                <h3>
+                    LLM-Powered Intelligent Systems
+                </h3>
+
+                <p>
+
+                    Experiments and applications involving
+                    local large language models, structured
+                    reasoning and automated workflows.
+
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">LLaMA</span>
+                    <span class="tag">Ollama</span>
+                    <span class="tag">Python</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card reveal">
+
+                <div class="card-number">
+                    ENGINEERING
+                </div>
+
+                <h3>
+                    Backend & API Systems
+                </h3>
+
+                <p>
+
+                    Development of backend services,
+                    REST APIs, data processing pipelines
+                    and deployable software systems.
+
+                </p>
+
+                <div class="tags">
+
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">REST</span>
+                    <span class="tag">Linux</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Experience -->
+
+    <section id="experience">
+
+        <div class="reveal">
+
+            <div class="eyebrow">
+                04 · Experience
+            </div>
+
+            <h2 class="section-title">
+                Experience
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item reveal">
+
+                <div class="date">
+                    CURRENT
+                </div>
+
+                <h3>
+                    AI Research & Software Engineering
+                </h3>
+
+                <p>
+
+                    Research and development in Agentic AI,
+                    medical imaging, LLM systems and
+                    backend software engineering.
+
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="date">
+                    SOFTWARE ENGINEERING
+                </div>
+
+                <h3>
+                    Team Lead
+                </h3>
+
+                <p>
+
+                    Leading development of distributed
+                    software services and coordinating
+                    technical implementation across
+                    multiple components.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+
+    <section>
+
+        <div class="reveal">
+
+            <div class="eyebrow">
+                05 · Skills
+            </div>
+
+            <h2 class="section-title">
+                Technologies
+            </h2>
+
+        </div>
+
+
+        <div class="skills reveal">
+
+            <span class="skill">Python</span>
+
+            <span class="skill">PyTorch</span>
+
+            <span class="skill">FastAPI</span>
+
+            <span class="skill">Flask</span>
+
+            <span class="skill">Machine Learning</span>
+
+            <span class="skill">Deep Learning</span>
+
+            <span class="skill">Computer Vision</span>
+
+            <span class="skill">LLMs</span>
+
+            <span class="skill">Agentic AI</span>
+
+            <span class="skill">Multimodal AI</span>
+
+            <span class="skill">Git</span>
+
+            <span class="skill">Linux</span>
+
+            <span class="skill">Azure</span>
+
+            <span class="skill">REST APIs</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <div class="contact reveal">
+
+            <div class="eyebrow">
+                06 · Contact
+            </div>
+
+            <h2 class="section-title">
+                Let's connect.
+            </h2>
+
+            <p>
+
+                Interested in AI research,
+                software engineering or collaboration?
+
+                Feel free to reach out.
+
+            </p>
+
+
+            <div class="buttons"
+                 style="justify-content:center;">
+
+                <a
+                    class="button primary"
+                    href="mailto:YOUR_EMAIL@example.com"
+                >
+                    Email Me
+                </a>
+
+                <a
+                    class="button"
+                    href="https://github.com/leilabidad"
+                    target="_blank"
+                >
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        © 2026 Leila Bidad ·
+        AI Researcher & Software Engineer
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
